@@ -1,0 +1,36 @@
+.app {
+  padding: 13px 0 18px;
+}
+
+.app-tabs__nav .ant-tabs-nav {
+  width: 146px;
+  align-self: center;
+}
+
+.ant-tabs-tab {
+  width: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.ant-tabs-tab + .ant-tabs-tab {
+  margin-left: 18px !important;
+}
+
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-operations,
+.ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-operations {
+  display: none;
+}
+
+.app__pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.app__pagination .ant-pagination-item-active {
+  background-color: #1890ff;
+}
+
+.app__pagination .ant-pagination-item-active a {
+  color: #fff;
+}

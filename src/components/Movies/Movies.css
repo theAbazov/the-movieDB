@@ -1,0 +1,16 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ant-spin-spinning {
+  margin: 0 auto;
+  padding: 15px 0 30px;
+}
+
+.ant-alert-error,
+.ant-alert-info {
+  margin: 0 auto 25px;
+  padding: 8px 300px;
+}

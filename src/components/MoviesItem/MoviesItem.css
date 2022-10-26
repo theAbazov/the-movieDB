@@ -1,0 +1,119 @@
+.movies-item {
+  display: flex;
+  flex: 0 0 48.4%;
+  max-height: 281px;
+  background-color: #fff;
+  box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 36px;
+}
+
+.movies-item__image {
+  flex: 0 0 40%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.movies-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.movies-item__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 12px 9px;
+}
+
+.movies-item__header-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.movies-item__title {
+  font-size: 20px;
+  line-height: calc(22 / 20);
+  margin-bottom: 0;
+}
+
+.movies-item__number-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 30px;
+  height: 30px;
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  border: 2px solid #e9d100;
+  border-radius: 50%;
+  margin-left: 9px;
+}
+
+.movies-item__date {
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  color: #827e7e;
+  margin-bottom: 2px;
+}
+
+.movies-item__categories {
+  margin-bottom: 2px;
+}
+
+.categories__item.ant-tag {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: calc(15 / 12);
+  background-color: transparent;
+}
+
+.movies-item__description {
+  flex: 1 1 auto;
+  font-size: 12px;
+  line-height: calc(22 / 12);
+  padding-right: 15px;
+}
+
+.anticon-star svg {
+  width: 17px;
+}
+
+.ant-rate > .ant-rate-star:not(:last-child) {
+  margin-right: 6px;
+}
+
+@media screen and (max-width: 1000px) {
+  .movies-item {
+    flex: 0 0 100%;
+  }
+  .movies-item__image {
+    flex: 0 0 20%;
+  }
+  .ant-rate {
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .movies-item {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .movies-item__image {
+    position: absolute;
+    max-width: 60px;
+    top: 12px;
+    left: 10px;
+  }
+  .movies-item__title,
+  .movies-item__date,
+  .movies-item__categories {
+    padding-left: 70px;
+  }
+  .movies-item__header {
+    margin-bottom: 10px;
+  }
+}

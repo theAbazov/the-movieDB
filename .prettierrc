@@ -1,0 +1,8 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "importOrder": ["^react", "(.css)$", "(.scss)$", "^[a-zA-Z]", "^[{../,./}]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
