@@ -11,6 +11,7 @@
 
 .ant-alert-error,
 .ant-alert-info {
-  margin: 0 auto 25px;
-  padding: 8px 300px;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
 }
