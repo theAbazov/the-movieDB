@@ -26,7 +26,6 @@ class MoviesItem extends Component {
   setRating = () => {
     const { id: movieId, guestSession: guestSessionId } = this.props;
     const { starRating } = this.state;
-    console.log(guestSessionId);
     this.api.rateMovie(movieId, guestSessionId, starRating);
   };
 

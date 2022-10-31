@@ -107,7 +107,6 @@ class App extends Component {
 
   getRatedMovies = () => {
     const { guestSession } = this.state;
-    console.log(guestSession);
     this.api
       .requestRatedMovies(guestSession)
       .then(this.onContentLoaded)

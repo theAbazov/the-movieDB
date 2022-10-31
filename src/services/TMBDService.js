@@ -26,7 +26,6 @@ class TMBDService {
       return this._transformData(data);
     }
     return res.text().then((text) => {
-      console.log(JSON.parse(text));
       throw new Error(text);
     });
   }

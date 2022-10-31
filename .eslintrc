@@ -46,8 +46,8 @@
     "linebreak-style": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "jsx-a11y/label-has-associated-control": "off",
-    "no-console": "off",
-    "no-debugger": "off",
+    "no-console": "error",
+    "no-debugger": "error",
     "no-underscore-dangle": "off",
     "class-methods-use-this": "off"
   },
